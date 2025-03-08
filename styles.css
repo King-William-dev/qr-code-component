@@ -1,0 +1,65 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Slate300: hsl(212, 45%, 89%);
+  --Slate500: hsl(216, 15%, 48%);
+  --Slate900: hsl(218, 44%, 22%);
+}
+
+/*  */
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: var(--Slate300);
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+
+  margin: 10% auto;
+  background-color: var(--White);
+  padding: 15px;
+  border-radius: 20px;
+}
+.qr-code img {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+.content .para-one {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 1.1rem;
+  color: var(--Slate900);
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+.content .para-two {
+  font-family: 'Inter Tight', sans-serif;
+  font-size: 0.75rem;
+  margin-bottom: 15px;
+  text-align: center;
+  color: var(--Slate900);
+}
+.content .para-one,
+.content .para-two {
+  padding: 2px;
+  line-height: 1.5rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  line-height: 1.25rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
