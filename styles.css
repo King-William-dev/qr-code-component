@@ -25,11 +25,11 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 375px;
-
   margin: 50% auto;
   background-color: var(--White);
   padding: 15px;
   border-radius: 20px;
+  height: 400px;
 }
 .qr-code img {
   width: 100%;
