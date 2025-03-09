@@ -24,6 +24,7 @@ body {
 }
 .container {
   margin: auto;
+  margin-top: 480px;
   width: 320px;
   height: auto;
   background-color: var(--White);
