@@ -25,14 +25,14 @@ body {
 .container {
   margin: auto;
   width: 320px;
-  margin: 50% auto;
+  height: auto;
   background-color: var(--White);
   padding: 16px 16px 40px 16px;
   border-radius: 20px;
-  height: 499px;
 }
-.qr-code img {
+img {
   width: 288px;
+  height: 288px;
   border-radius: 20px;
   margin-bottom: 24px;
 }
